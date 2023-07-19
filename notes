@@ -23,3 +23,24 @@ React is a JS library.
 enject = use react in your project by cdn link or npm commands
 
 difference between async and defer?
+
+what is bundlers?  example : vite, parcel, webpack.
+what is webpack?
+
+we can use parcel in this project beacause it is easy to use and learn.
+
+package = is a files of js.
+
+npm = (node package manager) is used to manage packages that can be in our app. 
+
+npm install -D package-name = to install any package in app for development environment not for production.
+
+dependency = the packages which can be used in project. / packages on which prodect depends
+
+dev-dependency = 
+
+caret(^) and tilde(~) in package manager.
+
+package-lock.json = which versions of packages is currently using in our project.
+
+node_modules = 
