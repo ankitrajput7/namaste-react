@@ -67,6 +67,7 @@ HTTPS on dev
 manage PORT number
 consistance hashing algorithm
 zero config
+tree shaking = removing unwanted code / ignore unwated code / code which can not useful for project
 
 
 
@@ -76,3 +77,24 @@ transitive dependency =
 
 how many types give in script tag in HTML?
 
+npx is executing the packages
+npx = npm run 
+
+/************
+if after deleting dist folder and on running command for build it gives error 
+Error: Expected content key 2d39cdf7c618ab5b to exist
+solution = delete .parcel-cache folder and run command again it will work
+*************/
+
+how React.createElement should work = react convert it in a object = then it will converted into an HTML DOM
+
+JSX = JavaScript XML = is a html like syntax 
+
+React Components = 
+1. Functional Component = new way of writing code
+2. Class Based Component = old way oy writing code
+
+Functional Component = is a javascript function that returns a piece of JSX/Component
+name of component starts with capital letter / this is a convention / this is not mandatory at all
+
+Component Composition = if we can use one Component inside Another Component / passing component inside another component / 
