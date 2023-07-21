@@ -1,6 +1,6 @@
 emmet = Emmet prevents you from writing the entire code by yourself by providing Emmet abbreviation.
 
-//*********  for basic/default html page = html:5  ***********//
+/*********  for basic/default html page = html:5  ***********/
 
 CDN = A content delivery network (CDN) is a geographically distributed group of servers that caches content close to end users. A CDN allows for the quick transfer of assets needed for loading Internet content, including HTML pages, JavaScript files, stylesheets, images, and videos.
 
@@ -8,14 +8,14 @@ what is crossorigin?
 
 difference between library and framework?
 
-//*********** extensions to use before code in vs code
+/*********** extensions to use before code in vs code
 better comments
 bracket pair colorization toggler
 es7  react redux
 gitlens
 prettier-code formatter
 vscode icons 
-************//
+************/
 
 DOM manipulation function in javascript?
 
@@ -44,3 +44,35 @@ caret(^) and tilde(~) in package manager.
 package-lock.json = which versions of packages is currently using in our project.
 
 node_modules = 
+
+/********
+everything that we can generate on server that can be put in .gitignore
+
+how to run project 
+npx parcel name-of-entry-file-name = npx parcel index.html
+********/
+
+hot module reload = HMR
+parcel uses file watcher algorithm to refresh the page on saving changes in any file - written in C++
+bunduling files
+minify files
+cleaning the code
+dev and production build
+super fast build algorithm
+image optimizing
+caching while development builds
+compression
+compatible with older version of browser
+HTTPS on dev
+manage PORT number
+consistance hashing algorithm
+zero config
+
+
+
+why react is fast = 
+
+transitive dependency =  
+
+how many types give in script tag in HTML?
+
