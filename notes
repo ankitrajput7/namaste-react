@@ -98,3 +98,24 @@ Functional Component = is a javascript function that returns a piece of JSX/Comp
 name of component starts with capital letter / this is a convention / this is not mandatory at all
 
 Component Composition = if we can use one Component inside Another Component / passing component inside another component / 
+
+/* 
+App Layout of Project Bhojansala
+
+   Header
+      -Logo
+      -Nav Items(right side)
+      -Cart
+   Body
+      -Search bar
+      -RestaurentList
+      -Restaurent Card
+         -Image
+         -Name
+         -Rating
+         -Cuisins
+         -Price
+   Footer
+      -Links
+      -Copyright
+*/

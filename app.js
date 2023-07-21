@@ -1,47 +1,48 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-
-
-const heading1 = <h1>Hello</h1>;
-/**
- * here heading1 is is a react element.
- * heading1 at the end is a javascript object.
- */
-
-
-
-const Heading = () => {
+const Header = () => {
   return (
-    <div>
-      {heading1}
-      <h1>functional component</h1>
-    </div>
+    <>
+      <div className="header">
+        <a href="/">
+          <img
+            className="logo"
+            src="https://img.freepik.com/premium-photo/cartoon-character-holding-hamburger-his-hands_894855-1943.jpg?w=740"
+            alt="logo"
+          ></img>
+        </a>
+
+        <div className="nav-bar">
+          <ul>
+            <li>Home </li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Cart</li>
+          </ul>
+        </div>
+      </div>
+    </>
   );
-
-  /**
-   * the return code is a piece of JSX.
-   */
 };
-/**
- * here heading is a example of functional component.
- */
-console.log(Heading);
 
+const Body = () => {
+  return <h1>body</h1>;
+};
 
+const Footer = () => {
+  return <h1>Footer</h1>;
+};
 
 const IndexFunction = () => {
   return (
     <>
-      <Heading></Heading>
+      <Header></Header>
+      <Body></Body>
+      <Footer></Footer>
     </>
   );
 };
-/*
-here IndexFunction is a example of function composition.
-*/
-
-
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<IndexFunction />);
